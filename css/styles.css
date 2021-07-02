@@ -36,10 +36,19 @@ padding: 4px 0;
 .my-24{
     margin: 24px 0;
 }
+.mb-24{
+    margin-bottom: 24px;
+}
+.mt-24{
+    margin-top: 24px;
+}
+.d-flex{
+    display: flex;
+}
 header{
     background-color: #032927;
     border: 2px solid var(--light-green-color);
-    padding: 1.8rem 1.8rem 0 1.8rem ;
+    padding: 1.8rem 18.5rem 0 18.5rem ;
 }
 header .logo{
     color: var(--orange-color);
@@ -53,7 +62,7 @@ header .logo{
 }
 .content-card {
     background-color: var(--white-color);
-    padding: 1.8rem;
+    padding: 1.8rem 8rem;
     text-align: center;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
@@ -86,4 +95,29 @@ header .logo{
     padding: 6px 10px;
     color: #999999;
     margin: 8px 8px;
+}
+.list-link{
+    list-style: none;
+    justify-content: center;
+}
+.list-link .link-item{
+    margin: 8px 18px;
+    color: #3B3B3B;
+    font-weight: 600;
+}
+footer{
+    text-align: center;
+}
+
+.download-app-button div{
+    align-items: center;
+    text-align: left;
+    justify-content: space-between;
+    padding: 0 4px;
+}
+.download-app-button div i{
+    font-size: 21px;
+}
+.download-app-button  .btn-text{
+    margin-left: 8px;
 }
