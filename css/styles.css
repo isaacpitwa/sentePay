@@ -125,3 +125,28 @@ footer{
 .download-app-button  .btn-text{
     margin-left: 8px;
 }
+
+.outerCircle{
+    background-color: var(--orange-color);
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -80px;
+    right: 20%;
+}
+.innerCircle{
+    background-color: var(--dark-green-color);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.heading{
+    justify-content: space-between;
+    position: relative;
+
+}
