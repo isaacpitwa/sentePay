@@ -48,7 +48,7 @@ padding: 4px 0;
 header{
     background-color: #032927;
     border: 2px solid var(--light-green-color);
-    padding: 1.8rem 18.5rem 0 18.5rem ;
+    padding: 1.8rem 18.5rem 6rem 18.5rem ;
 }
 header .logo{
     color: var(--orange-color);
@@ -61,11 +61,11 @@ header .logo{
     margin-top: 1.8rem;    
 }
 .content-card {
+    margin-top: -50px;
     background-color: var(--white-color);
     padding: 1.8rem 8rem;
     text-align: center;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
+    border-radius: 8px;
     padding-bottom: 3rem;
 }
 .content{
@@ -81,15 +81,23 @@ header .logo{
     padding: 14px 52px;
     border-radius: 100px;
     text-decoration: none;
-}
 
+}
+.link-button:hover,.download-app-button:hover,.social-link-item:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
 
 .social-media-link{
     list-style: none;
     display: flex;
     justify-content: center;
+    
 }
-.social-link-item{
+.social-media-link a{
+    text-decoration: none;
+}
+.social-link-item i {
     border: 2px solid #999999;
     border-radius: 50%;
     height: 32px;
@@ -150,3 +158,5 @@ footer{
     position: relative;
 
 }
+
+/* Mobile */
